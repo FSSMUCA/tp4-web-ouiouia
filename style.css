@@ -1,0 +1,118 @@
+
+.card img {
+  height: 300px;
+  object-fit: cover ;
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1ece6;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", serif;
+  color: #000000bc; 
+  font-weight: 600;
+}
+.navbar.bg-primary {
+  background-color: #2E2E2E !important;
+  padding: 15px 0;
+}
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #E74C3C;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 15px;
+  color: #f2f2f2 !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #c2bcab !important;
+}
+
+#heroSlider img {
+  height: 90vh;
+  object-fit: cover;
+  filter: brightness(60%); 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(90%);
+}
+
+
+.card {
+  background: #111;
+  border: 1px solid #333;
+  color: #ddd;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: #343330;
+  font-family: "Playfair Display", serif;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.btn-primary, 
+.btn-success {
+  background-color: #2E2E2E !important;
+  border: none !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+  background-color: #b5b5b1 !important; 
+}
+
+
+footer {
+  background: #000;
+  color: #8f8e8d;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #f2f2f2;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #abaaa5;
+}
